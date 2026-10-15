@@ -1,0 +1,13 @@
+# Tidewar — Cloudflare Worker deployment config.
+# 1. npx wrangler kv:namespace create TIDEWAR   (then paste the id below)
+# 2. npx wrangler deploy
+# The game also runs without the KV binding (in-memory fallback), but state
+# will not survive deploys/restarts in that mode.
+
+name = "tidewar"
+main = "worker.js"
+compatibility_date = "2026-01-01"
+
+[[kv_namespaces]]
+binding = "TIDEWAR"
+id = "664f9c290b7a46bc994309077c2b1c75"
