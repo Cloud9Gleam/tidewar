@@ -1,5 +1,9 @@
 # Tidewar — hex-island conquest for 2–4 players
 
+**Play now (no install, no login):** https://tidewar.1040931305.workers.dev
+(Alias: https://tidewar.n1netw3n.live/)
+
+
 A complete multiplayer strategy game: a Cloudflare Worker serves a playable
 browser UI and a JSON API for bots. Conquer 60% of the 37-isle hex map before
 your rivals do.
